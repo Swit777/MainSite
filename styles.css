@@ -138,11 +138,6 @@ img {
   stroke-width: 1.8;
 }
 
-.socials__vk {
-  font-family: var(--display);
-  font-size: 1.1rem;
-}
-
 .socials a:hover {
   color: #fff;
   border-color: rgba(255, 32, 41, .55);
