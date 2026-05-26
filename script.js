@@ -18,7 +18,7 @@ function resizeCanvas() {
 
   const count = Math.max(36, Math.min(92, Math.floor(width / 18)));
   particles = Array.from({ length: count }, () => ({
-    x: Math.random() * width,
+    x: Math.random() * width, 
     y: Math.random() * height,
     r: Math.random() * 1.9 + .45,
     a: Math.random() * .55 + .2,
