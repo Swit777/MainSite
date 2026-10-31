@@ -380,6 +380,12 @@ h3 {
   object-position: center;
 }
 
+.hero-game:focus-visible,
+.game-card__cover:focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: -4px;
+}
+
 .section,
 .values,
 .studio-strip,
@@ -418,6 +424,7 @@ h3 {
 }
 
 .game-card__cover {
+  display: block;
   aspect-ratio: 16 / 9;
   background-color: var(--panel-strong);
   overflow: hidden;
@@ -456,14 +463,14 @@ h3 {
   font-weight: 800;
 }
 
-.game-card a {
+.game-card__body a {
   width: fit-content;
   margin-top: auto;
   color: #fff;
   font-weight: 800;
 }
 
-.game-card a span {
+.game-card__body a span {
   color: var(--red);
   margin-left: .25rem;
 }
